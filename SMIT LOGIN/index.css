@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #071aee,#fff, #2eeb11);
+}
+.login-container {
+    background: linear-gradient(to bottom right, #071aee, #2ee612);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.form-group input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.form-group button {
+
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom left, #071aee, #2ee612);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px rgba(246, 243, 243, 0.856);
+}
+.lock-icon {
+    position: absolute;
+    bottom: 10px; 
+    right: 2px; 
+    width: 15px; 
+    height: 20px;
+}
+.mail-icon {
+    position: absolute;
+    bottom: 10px; 
+    right: 2px; 
+    width: 15px; 
+    height: 20px;
+}
+.logo {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Optional: Adjust margin */
+    margin-left: 75px;
+    margin-top: 5px;
+}
